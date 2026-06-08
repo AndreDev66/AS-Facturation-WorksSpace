@@ -62,10 +62,6 @@
 
 ## 🏗️ Estructura del proyecto
 
----
-
-## 🧩 Estructura del proyecto
-
 - `Main.py` — archivo principal que arranca la aplicación, muestra pantalla de splash y login.
 - `db.py` — módulo de base de datos, inicializa tablas SQLite y gestiona el estado.
 - `requirements.txt` — dependencias Python.
