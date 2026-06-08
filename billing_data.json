@@ -1,0 +1,517 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "code": "PROD001",
+      "name": "Laptop HP 15",
+      "category": "Electrónica",
+      "purchase_price": 0.0,
+      "price": 899.99,
+      "stock": 7,
+      "min_stock": 3,
+      "location": "A1",
+      "supplier": null,
+      "notes": "",
+      "tax_exempt": false
+    },
+    {
+      "id": 2,
+      "code": "PROD002",
+      "name": "Mouse Inalámbrico",
+      "category": "Electrónica",
+      "purchase_price": 0.0,
+      "price": 29.99,
+      "stock": 48,
+      "min_stock": 10,
+      "location": "A2",
+      "supplier": null,
+      "notes": "",
+      "tax_exempt": false
+    },
+    {
+      "id": 3,
+      "code": "PROD003",
+      "name": "Teclado Mecánico",
+      "category": "Electrónica",
+      "purchase_price": 0.0,
+      "price": 79.99,
+      "stock": 0,
+      "min_stock": 5,
+      "location": "A3",
+      "supplier": null,
+      "notes": "",
+      "tax_exempt": false
+    },
+    {
+      "id": 4,
+      "code": "PROD004",
+      "name": "Monitor 24\"",
+      "category": "Electrónica",
+      "purchase_price": 0.0,
+      "price": 199.99,
+      "stock": 4,
+      "min_stock": 3,
+      "location": "B1",
+      "supplier": "LG",
+      "notes": "De color turquesa",
+      "tax_exempt": false
+    },
+    {
+      "id": 5,
+      "code": "PROD005",
+      "name": "Impresora Multifuncional",
+      "category": "Electrónica",
+      "purchase_price": 0.0,
+      "price": 149.99,
+      "stock": 49,
+      "min_stock": 2,
+      "location": "B2",
+      "supplier": "",
+      "notes": "",
+      "tax_exempt": false
+    },
+    {
+      "id": 7,
+      "code": "PA001",
+      "name": "Bolsa de pan 12u",
+      "category": "Alimentos",
+      "purchase_price": 0.7,
+      "price": 1.0,
+      "stock": 185,
+      "min_stock": 5,
+      "location": "A7",
+      "supplier": "Panaderia tachira",
+      "notes": "Vender rapido mientras esten frescos",
+      "tax_exempt": false
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "name": "Andres Socorro",
+      "rif_ci": "30.2689.58",
+      "type": "Público",
+      "phone": "455454545454",
+      "email": "andres@correo.com",
+      "address": "mi casa",
+      "city": "Maracaibo",
+      "state": "Zulia",
+      "postal_code": "4004",
+      "notes": "mala paga",
+      "credit_days": 7,
+      "balance": 231.98840000000018,
+      "credit_start_date": "11/03/2026"
+    },
+    {
+      "id": 2,
+      "name": "Ciente General",
+      "rif_ci": "none",
+      "type": "General",
+      "phone": "none",
+      "email": "none",
+      "address": "a",
+      "city": "a",
+      "state": "a",
+      "postal_code": "none",
+      "notes": "a",
+      "credit_days": 0,
+      "balance": 0.0,
+      "credit_start_date": null
+    },
+    {
+      "id": 3,
+      "name": "Nubia Fernandez",
+      "rif_ci": "11609827",
+      "type": "Público",
+      "phone": "04126446181",
+      "email": "email@gmail.com",
+      "address": "Kilometro 27",
+      "city": "Mara",
+      "state": "Zulia",
+      "postal_code": "4004",
+      "notes": "",
+      "credit_days": 8,
+      "balance": 1235.3768000000002,
+      "credit_start_date": "11/03/2026"
+    }
+  ],
+  "invoices": [
+    {
+      "number": 1034,
+      "date": "02/03/2026 17:18",
+      "client": "Cliente General",
+      "subtotal": 661.98,
+      "tax": 105.91680000000001,
+      "total": 767.8968,
+      "payment_method": "Transferencia",
+      "status": "Cancelada",
+      "due_date": null,
+      "is_credit": false,
+      "balance": 0.0,
+      "cancel_method": "El cliente pidio anularla",
+      "cancel_note": "la trajo fea",
+      "items": [
+        {
+          "product": "Harina Pan",
+          "quantity": 18,
+          "price": 24.0,
+          "total": 432.0,
+          "tax_exempt": false,
+          "product_id": null
+        },
+        {
+          "product": "Monitor 24\"",
+          "quantity": 1,
+          "price": 199.99,
+          "total": 199.99,
+          "tax_exempt": false,
+          "product_id": 4
+        },
+        {
+          "product": "Mouse Inalámbrico",
+          "quantity": 1,
+          "price": 29.99,
+          "total": 29.99,
+          "tax_exempt": false,
+          "product_id": 2
+        }
+      ],
+      "payments": [],
+      "documents": [],
+      "client_id": null
+    },
+    {
+      "number": 1035,
+      "date": "02/03/2026 17:19",
+      "client": "Nubia Fernandez",
+      "subtotal": 749.95,
+      "tax": 119.992,
+      "total": 869.942,
+      "payment_method": "Divisas",
+      "status": "Pagada",
+      "due_date": null,
+      "is_credit": false,
+      "balance": 0.0,
+      "cancel_method": null,
+      "cancel_note": null,
+      "items": [
+        {
+          "product": "Impresora Multifuncional",
+          "quantity": 5,
+          "price": 149.99,
+          "total": 749.95,
+          "tax_exempt": false,
+          "product_id": 5
+        }
+      ],
+      "payments": [],
+      "documents": [],
+      "client_id": 3
+    },
+    {
+      "number": 1036,
+      "date": "02/03/2026 17:32",
+      "client": "Andres Socorro",
+      "subtotal": 929.98,
+      "tax": 148.79680000000002,
+      "total": 1078.7768,
+      "payment_method": "Transferencia",
+      "status": "Pagada",
+      "due_date": "02/03/2026",
+      "is_credit": true,
+      "balance": 0.0,
+      "cancel_method": null,
+      "cancel_note": null,
+      "items": [
+        {
+          "product": "Mouse Inalámbrico",
+          "quantity": 1,
+          "price": 29.99,
+          "total": 29.99,
+          "tax_exempt": false,
+          "product_id": 2
+        },
+        {
+          "product": "Laptop HP 15",
+          "quantity": 1,
+          "price": 899.99,
+          "total": 899.99,
+          "tax_exempt": false,
+          "product_id": 1
+        }
+      ],
+      "payments": [
+        {
+          "date": "02/03/2026 17:48",
+          "amount": 1078.7768,
+          "method": "Transferencia",
+          "note": "Pago registrado desde lista de facturas"
+        }
+      ],
+      "documents": [],
+      "client_id": 1
+    },
+    {
+      "number": 1037,
+      "date": "02/03/2026 17:58",
+      "client": "Andres Socorro",
+      "subtotal": 7538.5,
+      "tax": 1206.16,
+      "total": 8744.66,
+      "payment_method": "Transferencia",
+      "status": "Pagada",
+      "due_date": "02/03/2026",
+      "is_credit": true,
+      "balance": 0.0,
+      "cancel_method": null,
+      "cancel_note": null,
+      "items": [
+        {
+          "product": "Harina Pan",
+          "quantity": 1,
+          "price": 24.0,
+          "total": 24.0,
+          "tax_exempt": false,
+          "product_id": null
+        },
+        {
+          "product": "Impresora Multifuncional",
+          "quantity": 50,
+          "price": 149.99,
+          "total": 7499.5,
+          "tax_exempt": false,
+          "product_id": 5
+        },
+        {
+          "product": "Bolsa de pan 12u",
+          "quantity": 15,
+          "price": 1.0,
+          "total": 15.0,
+          "tax_exempt": false,
+          "product_id": 7
+        }
+      ],
+      "payments": [
+        {
+          "date": "02/03/2026 17:58",
+          "amount": 8744.66,
+          "method": "Transferencia",
+          "note": "Pago registrado desde lista de facturas"
+        }
+      ],
+      "documents": [],
+      "client_id": 1
+    },
+    {
+      "number": 1038,
+      "date": "02/03/2026 21:36",
+      "client": "Nubia Fernandez",
+      "subtotal": 4344.0,
+      "tax": 695.04,
+      "total": 5039.04,
+      "payment_method": "Pago móvil",
+      "status": "Pagada",
+      "due_date": "02/03/2026",
+      "is_credit": true,
+      "balance": 0.0,
+      "cancel_method": null,
+      "cancel_note": null,
+      "items": [
+        {
+          "product": "Harina Pan",
+          "quantity": 181,
+          "price": 24.0,
+          "total": 4344.0,
+          "tax_exempt": false,
+          "product_id": null
+        }
+      ],
+      "payments": [
+        {
+          "date": "02/03/2026 21:37",
+          "amount": 5039.04,
+          "method": "Pago móvil",
+          "note": "Pago registrado desde lista de facturas"
+        }
+      ],
+      "documents": [],
+      "client_id": 3
+    },
+    {
+      "number": 1041,
+      "date": "05/03/2026 20:50",
+      "client": "Nubia Fernandez",
+      "subtotal": 79.99,
+      "tax": 12.798399999999999,
+      "total": 92.7884,
+      "payment_method": "Efectivo",
+      "status": "Pagada",
+      "due_date": null,
+      "is_credit": false,
+      "balance": 0.0,
+      "cancel_method": null,
+      "cancel_note": null,
+      "items": [
+        {
+          "product": "Teclado Mecánico",
+          "quantity": 1,
+          "price": 79.99,
+          "total": 79.99,
+          "tax_exempt": false,
+          "product_id": 3
+        }
+      ],
+      "payments": [],
+      "documents": [],
+      "client_id": 3
+    },
+    {
+      "number": 1044,
+      "date": "06/03/2026 16:01",
+      "client": "Nubia Fernandez",
+      "subtotal": 79.99,
+      "tax": 12.798399999999999,
+      "total": 92.7884,
+      "payment_method": "Efectivo",
+      "status": "Pagada",
+      "due_date": "06/03/2026",
+      "is_credit": true,
+      "balance": 0.0,
+      "cancel_method": null,
+      "cancel_note": null,
+      "items": [
+        {
+          "product": "Teclado Mecánico",
+          "quantity": 1,
+          "price": 79.99,
+          "total": 79.99,
+          "tax_exempt": false,
+          "product_id": 3
+        }
+      ],
+      "payments": [
+        {
+          "date": "11/03/2026 18:04",
+          "amount": 92.7884,
+          "method": "Efectivo",
+          "note": "Pago registrado desde lista de facturas"
+        }
+      ],
+      "documents": [],
+      "client_id": 3
+    },
+    {
+      "number": 1045,
+      "date": "11/03/2026 18:18",
+      "client": "Nubia Fernandez",
+      "subtotal": 899.99,
+      "tax": 143.9984,
+      "total": 1043.9884,
+      "payment_method": "Efectivo",
+      "status": "Pagada",
+      "due_date": "19/03/2026",
+      "is_credit": true,
+      "balance": 0.0,
+      "cancel_method": null,
+      "cancel_note": null,
+      "items": [
+        {
+          "product": "Laptop HP 15",
+          "quantity": 1,
+          "price": 899.99,
+          "total": 899.99,
+          "tax_exempt": false,
+          "product_id": 1
+        }
+      ],
+      "payments": [
+        {
+          "date": "11/03/2026 18:20",
+          "amount": 1043.9884,
+          "method": "Efectivo",
+          "note": "Pago registrado desde lista de facturas"
+        }
+      ],
+      "documents": [],
+      "client_id": 3
+    },
+    {
+      "number": 1046,
+      "date": "12/03/2026 10:37",
+      "client": "Andres Socorro",
+      "subtotal": 1829.78,
+      "tax": 292.7648,
+      "total": 2122.5448,
+      "payment_method": "Divisas",
+      "status": "Pagada",
+      "due_date": "19/03/2026",
+      "is_credit": true,
+      "balance": 0.0,
+      "cancel_method": null,
+      "cancel_note": null,
+      "items": [
+        {
+          "product": "Teclado Mecánico",
+          "quantity": 21,
+          "price": 79.99,
+          "total": 1679.79,
+          "tax_exempt": false,
+          "product_id": 3
+        },
+        {
+          "product": "Impresora Multifuncional",
+          "quantity": 1,
+          "price": 149.99,
+          "total": 149.99,
+          "tax_exempt": false,
+          "product_id": 5
+        }
+      ],
+      "payments": [
+        {
+          "date": "12/03/2026 10:39",
+          "amount": 2122.5448,
+          "method": "Divisas",
+          "note": "Pago registrado desde lista de facturas"
+        }
+      ],
+      "documents": [],
+      "client_id": 1
+    },
+    {
+      "number": 1047,
+      "date": "12/03/2026 10:39",
+      "client": "Nubia Fernandez",
+      "subtotal": 185.0,
+      "tax": 29.6,
+      "total": 214.6,
+      "payment_method": "Transferencia",
+      "status": "Cancelada",
+      "due_date": null,
+      "is_credit": false,
+      "balance": 0.0,
+      "cancel_method": "Se equivoco",
+      "cancel_note": "La bolsa vino en mal estado",
+      "items": [
+        {
+          "product": "Bolsa de pan 12u",
+          "quantity": 185,
+          "price": 1.0,
+          "total": 185.0,
+          "tax_exempt": false,
+          "product_id": 7
+        }
+      ],
+      "payments": [],
+      "documents": [],
+      "client_id": 3
+    }
+  ],
+  "invoice_counter": 1048,
+  "iva_rate": 0.16,
+  "exchange_rate": 563.2892,
+  "include_pending_in_dashboard": true,
+  "auto_update_rate": true,
+  "rate_source": "oficial",
+  "version": "2.7"
+}
