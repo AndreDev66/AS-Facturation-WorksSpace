@@ -49,7 +49,7 @@
 
 ## 🖥️ Capturas de pantalla
 
-> *Puedes agregar aquí imágenes de la interfaz. Ejemplo:*
+> *Imagenes demostrativas:*
 
 <p align="center">
   <img src="img/screenshot_login.png" width="45%">
