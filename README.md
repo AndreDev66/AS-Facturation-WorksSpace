@@ -1,34 +1,66 @@
-# Sistema de Facturación AS — v2.7
+<!-- markdownlint-disable MD033 -->
+<p align="center">
+  <img src="img/logo.png" alt="AS Facturation Logo" width="150" style="border-radius: 20px;">
+</p>
 
-> Interfaz de escritorio para facturación, gestión de inventario, clientes y reportes, construida con `CustomTkinter` y SQLite.
+<h1 align="center">🧾 Sistema de facturación AS  — v2.7</h1>
+
+<p align="center">
+  <strong>Sistema de facturación de escritorio moderno, rápido y seguro</strong><br>
+  Gestión de ventas, inventario, clientes y reportes con interfaz gráfica elegante.
+</p>
+
+<p align="center">
+  <a href="https://github.com/AndreDev66/AS-Facturation-Workspace/blob/main/LICENSE"><img src="https://img.shields.io/badge/Licencia-MIT-blue.svg" alt="Licencia MIT"></a>
+  <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/Python-3.10%2B-brightgreen.svg" alt="Python 3.10+"></a>
+  <a href="https://github.com/AndreDev66/AS-Facturation-Workspace"><img src="https://img.shields.io/badge/Estado-En%20desarrollo-yellow" alt="Estado"></a>
+  <img src="https://img.shields.io/badge/UI-CustomTkinter-1f8a4c" alt="UI CustomTkinter">
+</p>
 
 ---
 
-## 🚀 Descripción
+## 📖 Descripción
 
-Este proyecto es un sistema de facturación integral diseñado para pequeñas y medianas empresas. Permite gestionar ventas, inventario, clientes, facturas y reportes desde una aplicación de escritorio amigable y moderna.
+**AS Facturation** es una aplicación de escritorio diseñada para pequeñas y medianas empresas. Centraliza la facturación, el control de stock, la base de clientes y la generación de reportes en una herramienta amigable y totalmente funcional sin necesidad de conexión a internet.
 
-El proyecto utiliza:
-- `tkinter` + `customtkinter` para UI
-- `SQLite` para almacenamiento local persistente
-- `matplotlib` para gráficos y reportes
-- `openpyxl` para exportar datos a Excel (si está instalado)
-- `Pillow` para carga de imágenes y logos
+### 🧠 ¿Por qué elegir AS Facturation?
+
+- ✅ **Sin suscripciones** – Una sola instalación, datos locales.
+- ✅ **Interfaz moderna** – Construida con `CustomTkinter` (tema claro/oscuro).
+- ✅ **Persistencia segura** – SQLite + respaldo automático en JSON.
+- ✅ **Roles integrados** – `admin` (control total) y `empleado` (solo ventas y consultas).
+- ✅ **Reportes visuales** – Gráficos de ventas, productos más vendidos y evolución mensual.
 
 ---
 
 ## ✨ Características principales
 
-- Punto de venta con búsqueda rápida de productos
-- Registro de clientes con campos ampliados
-- Gestión completa de inventario
-- Creación, edición y seguimiento de facturas
-- Control de pagos y créditos
-- Reportes visuales con gráficos
-- Backup automático en `billing_data.json`
-- Roles de usuario: `admin` y `empleado`
-- Interfaz responsiva y actualizable
-- Guardado en SQLite y respaldo JSON
+| Módulo | Funcionalidades |
+|--------|----------------|
+| 🛒 **Punto de venta** | Búsqueda rápida de productos, carrito, cálculo automático de impuestos y totales. |
+| 📦 **Inventario** | Alta, edición, eliminación, control de stock mínimo y alertas. |
+| 👥 **Clientes** | Registro con campos ampliados (teléfono, email, dirección, crédito disponible). |
+| 🧾 **Facturación** | Creación, edición, anulación y seguimiento de estado (pagada / crédito). |
+| 💰 **Pagos y créditos** | Registro de abonos, control de saldo pendiente y generación de recordatorios. |
+| 📊 **Reportes** | Ventas por período, productos más vendidos, clientes frecuentes, exportación a Excel. |
+| 🔐 **Seguridad** | Login con roles, hash de contraseñas (próximamente), respaldos automáticos. |
+
+---
+
+## 🖥️ Capturas de pantalla
+
+> *Puedes agregar aquí imágenes de la interfaz. Ejemplo:*
+
+<p align="center">
+  <img src="img/screenshot_login.png" width="45%">
+  &nbsp;&nbsp;&nbsp;
+  <img src="img/screenshot_factura.png" width="45%">
+</p>
+<p align="center"><i>Pantalla de login y ventana principal de facturación.</i></p>
+
+---
+
+## 🏗️ Estructura del proyecto
 
 ---
 
@@ -144,4 +176,3 @@ La base de datos inicial crea un usuario administrador por defecto:
 
 ---
 
-¿Quieres que agregue también un diagrama rápido de flujo o un ejemplo de uso paso a paso?"
