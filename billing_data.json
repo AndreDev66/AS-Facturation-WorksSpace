@@ -7,7 +7,7 @@
       "category": "Electrónica",
       "purchase_price": 0.0,
       "price": 899.99,
-      "stock": 7,
+      "stock": 5,
       "min_stock": 3,
       "location": "A1",
       "supplier": null,
@@ -505,11 +505,74 @@
       "payments": [],
       "documents": [],
       "client_id": 3
+    },
+    {
+      "number": 1048,
+      "date": "08/06/2026 14:06",
+      "client": "Andres Socorro",
+      "subtotal": 899.99,
+      "tax": 143.9984,
+      "total": 1043.9884,
+      "payment_method": "Pago móvil",
+      "status": "Pagada",
+      "due_date": "15/06/2026",
+      "is_credit": true,
+      "balance": 0.0,
+      "cancel_method": null,
+      "cancel_note": null,
+      "items": [
+        {
+          "product": "Laptop HP 15",
+          "quantity": 1,
+          "price": 899.99,
+          "total": 899.99,
+          "tax_exempt": false,
+          "product_id": 1
+        }
+      ],
+      "payments": [
+        {
+          "date": "08/06/2026 14:07",
+          "amount": 1043.9884,
+          "method": "Pago móvil",
+          "note": "Pago registrado desde lista de facturas"
+        }
+      ],
+      "documents": [],
+      "client_id": 1
+    },
+    {
+      "number": 1049,
+      "date": "09/06/2026 10:13",
+      "client": "Andres Socorro",
+      "subtotal": 899.99,
+      "tax": 143.9984,
+      "total": 1043.9884,
+      "payment_method": "Pago móvil",
+      "status": "Pagada",
+      "due_date": null,
+      "is_credit": false,
+      "balance": 0.0,
+      "cancel_method": null,
+      "cancel_note": null,
+      "items": [
+        {
+          "product": "Laptop HP 15",
+          "quantity": 1,
+          "price": 899.99,
+          "total": 899.99,
+          "tax_exempt": false,
+          "product_id": 1
+        }
+      ],
+      "payments": [],
+      "documents": [],
+      "client_id": 1
     }
   ],
-  "invoice_counter": 1048,
+  "invoice_counter": 1050,
   "iva_rate": 0.16,
-  "exchange_rate": 563.2892,
+  "exchange_rate": 567.6828,
   "include_pending_in_dashboard": true,
   "auto_update_rate": true,
   "rate_source": "oficial",
