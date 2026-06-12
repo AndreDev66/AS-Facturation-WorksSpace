@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD033 -->
 <p align="center">
-  <img src="img/logo1.png" alt="AS Facturation Logo" width="150" style="border-radius: 20px;">
+  <img src="img/logo.png" alt="AS Facturation Logo" width="150" style="border-radius: 20px;">
 </p>
 
 <h1 align="center">🧾 Sistema de facturación AS  — v2.7</h1>
